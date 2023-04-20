@@ -1,0 +1,10 @@
+﻿Console.WriteLine("enter length");
+int n1=Convert.ToInt16(Console.ReadLine());
+Console.WriteLine("enter breadth");
+int n2=Convert.ToInt16(Console.ReadLine());
+int rect=n1*n2;
+Console.WriteLine(rect);
+Console.WriteLine("enter side");
+int n3=Convert.ToInt16(Console.ReadLine());
+int squ=n3*n3;
+Console.WriteLine(squ);
