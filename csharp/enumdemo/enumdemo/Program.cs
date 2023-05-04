@@ -1,0 +1,16 @@
+﻿namespace enumdemo
+{
+    internal class Program
+    {
+        enum MusicPlayer { play=2, pause=10, Forward, Record, Stop}
+        static void Main(string[] args)
+        {
+            Console.WriteLine((int)MusicPlayer.play);
+            Console.WriteLine((int)MusicPlayer.pause);
+            Console.WriteLine((int)MusicPlayer.Forward);
+            Console.WriteLine((int)MusicPlayer.Record);
+            Console.WriteLine((int)MusicPlayer.Stop);
+
+        }
+    }
+}
